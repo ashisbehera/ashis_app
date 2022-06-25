@@ -127,6 +127,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.NewViewHol
                         holder.num_text_v.setTextColor(ContextCompat.getColor(context, R.color.white));
                         holder.num_text_v.setText(item_list.get(position).getCm());
                     }
+
                     else {
                         holder.short_view.setVisibility(View.VISIBLE);
                         holder.long_View.setVisibility(View.GONE);
