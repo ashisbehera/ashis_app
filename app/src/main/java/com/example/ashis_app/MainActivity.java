@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
         finalPos+=1;
         adapter.setCenter_item(finalPos);
         if(finalPos<=290){
-            outputTxt.setText(String.valueOf(finalPos));
+            outputTxt.setText(String.valueOf(finalPos) + "cm");
             selectedHeight = finalPos;
         }
     }
