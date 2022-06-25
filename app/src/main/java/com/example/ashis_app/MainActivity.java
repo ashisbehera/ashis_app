@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
             @Override
             public void onClick(View view) {
                 if(selectedHeight<=290)
-                showTxt.setText("The selected Height is :"+selectedHeight);
+                showTxt.setText("The selected Height is : "+selectedHeight);
             }
         });
 

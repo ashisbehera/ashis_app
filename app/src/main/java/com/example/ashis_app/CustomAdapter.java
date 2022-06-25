@@ -17,6 +17,7 @@ import java.util.ArrayList;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.NewViewHolder> {
 
+    private static final String TAG = "CustomAdapter";
     private Context context;
     private ArrayList<Height> item_list;
     public static final int VIEW_TYPE_PADDING = 1;
